@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/estilo-carrinho.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+</head>
+<body>
+
+        <table class="table">
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>SubTotal</th>
+            </tr>
+            <tr class="linha-produto1">
+                <td class="produto1"> <img class="imagem" src="camisabranca.jpg" alt="Camisa branca" width="100px" height="100px">Camisa básica branca</td>
+                <td>R$ 89,00</td>
+                <td><p class="quantidade">2</p></td>
+                <td>R$ 179,00</td>
+            </tr>
+            <tr class="linha-produto2">
+                <td class="produto1"> <img class="imagem" src="camisetapreta.jpg" alt="Camisa preta" width="100px" height="100px">Camisa básica preta</td>
+                <td>R$ 89,00</td>
+                <td><p class="quantidade">2</p></td>
+                <td>R$ 179,00</td>
+            </tr>
+            <tr class="linha-produto1">
+                <td class="produto1"> <img class="imagem" src="MeiaPreta.jpg" alt="Camisa branca" width="100px" height="100px">Meia preta</td>
+                <td>R$ 23,00</td>
+                <td><p class="quantidade">4</p></td>
+                <td>R$ 92,00</td>
+            </tr>
+        </table>
+
+        <table class="table-sub">
+            <tr>
+                <th class="sub">Subtotal</th>
+                <td class="td">R$ 440,00 </td>
+            </tr>
+            <tr>
+                <th class="cupom-sub">Cupom</th>
+                <th class="valor-cupom-sub">-R$27,00</th>
+            </tr>
+            <tr>
+                <th class="sub">Total</th>
+                <th style="text-align: right;">R$ 423,00</th>
+            </tr>
+        </table>
+        
+        <h3 class="h3-cupom">Cupom de desconto</h3>
+        <input class="cupom" type="text" value="Aplicar cupom de desconto">
+        <input type="submit" value="Aplicar">
+        <a class="bottom" href="compra-finalizada.html">Finalizar compra</a>
+</body>
+</html>
