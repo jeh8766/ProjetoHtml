@@ -1,0 +1,105 @@
+.table{
+    margin-top: 30px;
+    box-shadow: 10px 10px 50px #a2a0a088;
+    width: 100%;
+    border-collapse: collapse;
+    align-content: 50%;
+}
+
+th{
+    border:none;
+    padding: 1px 5px 1px 5px;
+    border-collapse: collapse;
+    background-color: #909090;
+}
+.td{
+    background-color: #909090;
+    text-align: right;
+}
+
+.linha-produto1{
+    background-color: #c1c1c1;
+}
+
+.linha-produto2{
+    background-color: #ffffff;
+}
+
+
+
+.quantidade{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px rgb(146, 147, 147);
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 1px;
+}
+
+.produto1{
+    display: flex;
+    border-radius: 50px;
+    margin-top: -1px;
+    margin-left: -1px;
+    margin-bottom: -1px;
+    align-items: center;
+}
+
+.h3-cupom{
+    margin-bottom: 10px;
+}
+
+.cupom{
+    color: rgba(0, 0, 0, 0.209);
+}
+
+.imagem{
+    margin-right: 20px;
+}
+
+.table-sub{
+    float: right;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.sub{
+    text-align: left;
+}
+
+.cupom-sub{
+    text-align: left;
+    color: green;
+}
+
+.valor-cupom-sub{
+    text-align: right;
+    color: green;
+}
+
+.bottom{
+    position:absolute;
+    right: 0%;
+    margin-right: 20px;
+    margin-top: 40px;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #beb8b8;
+}
+
+.bottom:hover{
+    background-color: greenyellow;
+}
+
+.cont1{
+    background-color: green;
+    }
+
+
+div{
+        width: 400px;
+        text-align: center;
+        padding: 10px;
+}
