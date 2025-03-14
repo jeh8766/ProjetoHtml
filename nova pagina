@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title> Dalmatian Store </title>
+</head>
+<h1> <i> <center> Dalmatian Store</i></h1> </center>
+<body style="background-color: bisque;"
+</body>
+<body> 
+ <style>
+        #mingallery {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        
+        #mingallery .item{
+            display:flex;
+            flex-direction:column;
+            border:none;
+            margin: 20px;   
+        }
+        #mingallery .item img{
+            width: 300px;
+            height: 250px;
+        }
+        #mingallery .item h2 {
+            font-size: 18px;
+            font-weight: 200;
+            text-align: center;
+        }
+    </style>
+    <section>
+        <h1 style="text-align: center;"> OFERTAS</h1>
+        <div id="mingallery">
+            <div class ='item'>
+                <img src="https://i.etsystatic.com/27018469/r/il/52a966/3839562476/il_1080xN.3839562476_4619.jpg">
+                <h2> Camisa Oversized F1</h2>
+                <p> 32.8% OFF</p>
+                <button> <a href="linkcamisa1.html"> VER PRODUTO </a> </button>
+            </div>
+            <div class ='item'>
+                <img src="https://res.cloudinary.com/teepublic/image/private/s--B0mHpebF--/t_Resized%20Artwork/c_crop,x_10,y_10/c_fit,w_470/c_crop,g_north_west,h_626,w_470,x_0,y_-42/g_north_west,u_upload:v1462829017:production:blanks:qe3008lhp5hquxmwp4a0,x_-395,y_-367/b_rgb:eeeeee/c_limit,f_auto,h_630,q_auto:good:420,w_630/v1603024810/production/designs/15163869_0.jpg"
+                <h2> Camisa Branca V1 </h2>
+                <p> 50% OFF</p>
+                <button> <a href="linkcamisa2.html"> VER PRODUTO </a> </button>
+            </div>
+            <div class ='item'>
+                <img src="https://res.cloudinary.com/teepublic/image/private/s--TTIkXz1P--/t_Resized%20Artwork/c_crop,x_10,y_10/c_fit,h_626/c_crop,g_north_west,h_626,w_470,x_-69,y_-6/g_north_west,u_upload:v1462829024:production:blanks:a59x1cgomgu5lprfjlmi,x_-464,y_-331/b_rgb:eeeeee/c_limit,f_auto,h_630,q_auto:good:420,w_630/v1701113927/production/designs/53762526_0.jpg"
+                <h2>Camisa Cat F1</h2>
+                <p> 10% OFF</p>
+                <button> <a href="linkshinji1.html"> VER PRODUTO </a> </button>
+            </div>
+        </div>
+    </section>
+<section>
+        <h1 style="text-align: center;"> Produtos Repetidos</h1>
+        <div id="mingallery">
+            <div class ='item'>
+                <img src="https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7C91ZhJMYYmHL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UY1000_.png"
+                <h2> Camisa M</h2>
+                <p> 328% OFF</p>
+                <button> <a href="linkcamisa1.html"> VER PRODUTO </a> </button>
+            </div>
+            <div class ='item'>
+                <img src="https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7C91ZhJMYYmHL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UY1000_.png"
+                <h2> Camisa GG </h2>
+                <p> 50% OFF</p>
+                <button> <a href="linkcamisa2.html"> VER PRODUTO </a> </button>
+            </div>
+            <div class ='item'>
+                <img src="https://m.media-amazon.com/images/I/B1pppR4gVKL._CLa%7C2140%2C2000%7C91ZhJMYYmHL.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_AC_UY1000_.png"
+                <h2> Camisa Oversized </h2>
+                <p> 10% OFF</p>
+                <button> <a href="linkshinji1.html"> VER PRODUTO </a> </button>
+            </div>
+        </div>
+    </section>
+</body>
