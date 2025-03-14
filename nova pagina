@@ -34,46 +34,22 @@
         <h1 style="text-align: center;"> OFERTAS</h1>
         <div id="mingallery">
             <div class ='item'>
-                <img src="https://github.com/jeh8766/ProjetoHtml/blob/main/images/CamisaBranca.jpg?raw=true">
-                <h2> Camisa Branca </h2>
+                <a href="linkcamisa1.html"><img src="https://github.com/jeh8766/ProjetoHtml/blob/main/images/CamisaBranca.jpg?raw=true"></a>
+                <h2> Camisa Branca</h2>
                 <p> R$120.90 /32.8% OFF</p>
                 <button> <a href="linkcamisa1.html"> VER PRODUTO </a> </button>
             </div>
             <div class ='item'>
-                <img src="https://raw.githubusercontent.com/jeh8766/ProjetoHtml/refs/heads/main/images/MeiaBranca.webp"
+                <a href="linkcamisa2.html"> <img src="https://raw.githubusercontent.com/jeh8766/ProjetoHtml/refs/heads/main/images/MeiaBranca.webp"></a>
                 <h2> Meia Branca </h2>
                 <p> R$ 30.90 /50% OFF</p>
                 <button> <a href="linkcamisa2.html"> VER PRODUTO </a> </button>
             </div>
             <div class ='item'>
-                <img src="https://raw.githubusercontent.com/jeh8766/ProjetoHtml/refs/heads/main/images/ShortBranco.webp"
+                <a href="linkcamisa3.html"> <img src="https://raw.githubusercontent.com/jeh8766/ProjetoHtml/refs/heads/main/images/ShortBranco.webp"></a>
                 <h2>Short Branco</h2>
                 <p> R$ 99.99 /10% OFF</p>
-                <button> <a href="linkshinji1.html"> VER PRODUTO </a> </button>
+                <button> <a href="linkcamisa3.html"> VER PRODUTO </a> </button>
             </div>
         </div>
     </section>
-<section>
-        <h1 style="text-align: center;"> </h1>
-        <div id="mingallery">
-            <div class ='item'>
-                <img src="https://raw.githubusercontent.com/jeh8766/ProjetoHtml/refs/heads/main/images/ShortPreto.webp">
-                <h2>Short Preto</h2> 
-                <p> R$ 99.99 /32.8% OFF</p>
-                <button> <a href="linkcamisa1.html"> VER PRODUTO </a> </button>
-            </div>
-            <div class ='item'>
-                <img src="https://github.com/jeh8766/ProjetoHtml/blob/main/images/camisa_preta.png?raw=true"
-                <h2> Camisa Preta </h2>
-                <p> R$ 200.90 /50% OFF</p>
-                <button> <a href="linkcamisa2.html"> VER PRODUTO </a> </button>
-            </div>
-            <div class ='item'>
-                <img src="https://raw.githubusercontent.com/jeh8766/ProjetoHtml/refs/heads/main/images/camisetaPreta.avif"
-                <h2> Camiseta Preta </h2>
-                <p> R$ 100.90 /30% OFF</p>
-                <button> <a href="linkshinji1.html"> VER PRODUTO </a> </button>
-            </div>
-        </div>
-    </section>
-</body>
